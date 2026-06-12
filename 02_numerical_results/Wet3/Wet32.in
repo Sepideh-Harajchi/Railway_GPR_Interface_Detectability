@@ -1,0 +1,22 @@
+#title: Wet32 Condition+antenna is located 20cm above the ballast layer
+#domain: 1.50 0.74 1.50
+#dx_dy_dz: 0.002 0.002 0.002
+#time_window: 40e-9
+
+#material: 20 1e-3 1 0 Wetsand15
+#material: 20 1e-3 1 0 Wetsand25
+
+#python:
+from user_libs.antennas.GSSI import antenna_like_GSSI_400
+antenna_like_GSSI_400(0.75, 0.37, 0.845, resolution=0.002)
+#end_python:
+
+#geometry_objects_read: 0 0 0.345 /palmyra/data/sharajchi/miniconda3/gprMax/user_libs/sepi/TC_15upwet.h5 /palmyra/data/sharajchi/miniconda3/gprMax/user_libs/sepi/TC_15upwet.txt
+
+#box: 0 0 0.095 1.5 0.74 0.345 Wetsand15
+#box: 0 0 0.045 1.5 0.74 0.095 Wetsand25
+#box: 0 0 0 1.50 0.74 0.045 pec
+
+#pml_cells: 20 20 20 20 20 20
+
+#geometry_view: 0 0 0 1.50 0.74 1.50 0.02 0.02 0.02 Wet32 n
