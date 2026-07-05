@@ -1,6 +1,6 @@
 # Railway_GPR_Interface_Detectability
 
-This repository contains the analytical calculations, numerical simulations, experimental ground-penetrating radar (GPR) measurements, and extracted signal attributes used in the study of ballast–sand interface detectability under varying moisture conditions and antenna elevations.
+This repository contains the analytical calculations, numerical simulations, experimental ground-penetrating radar (GPR) measurements, and extracted signal attributes used in the study of ballast-subgrade interface detectability under varying moisture conditions and antenna elevations.
 
 The repository provides a reproducible dataset supporting the evaluation of ballast–sand interface identification, attenuation behaviour, detectability, and spatial consistency through complementary analytical, numerical, and experimental investigations.
 
@@ -10,7 +10,7 @@ The repository provides a reproducible dataset supporting the evaluation of ball
 
 This repository accompanies the manuscript:
 
-**Influence of antenna elevation and moisture conditions on GPR-based ballast–sand interface detectability in railway substructures**
+**Influence of antenna elevation and moisture conditions on GPR-based ballast-subgrade interface detectability in railway substructures**
 
 Submitted to *NDT & E International*.
 
